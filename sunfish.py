@@ -10,7 +10,7 @@ from collections import namedtuple
 # Piece-Square tables. Tune these to change sunfish's behaviour
 ###############################################################################
 
-piece = { 'P': 100, 'N': 280, 'B': 320, 'R': 479, 'Q': 929, 'K': 60000 }
+piece = { 'P': 100, 'N': 400, 'B': 320, 'R': 479, 'Q': 929, 'K': 60000 }
 pst = {
     'P': (   0,   0,   0,   0,   0,   0,   0,   0,
             78,  83,  86,  73, 102,  82,  85,  90,
